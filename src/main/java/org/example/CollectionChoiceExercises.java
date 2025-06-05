@@ -51,9 +51,9 @@ public class CollectionChoiceExercises {
         // Create an appropriate collection variable for holding a set of
         // key-value pairs where they key is an employee name (String) and the
         // value is an employee access code (String.)
-        HashMap<String, Integer> employeeInfo = new HashMap<>();
-        employeeInfo.put("Eth", 0604);
-        employeeInfo.put("Medina", 0624);
+        HashMap<String, String> employeeInfo = new HashMap<>();
+        employeeInfo.put("Eth", "treat");
+        employeeInfo.put("Medina", "pizza");
         System.out.println(employeeInfo);
         System.out.println(employeeInfo.keySet());
         System.out.println(employeeInfo.values());
